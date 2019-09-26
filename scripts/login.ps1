@@ -1,9 +1,11 @@
+Set-ExecutionPolicy RemoteSigned
+
 while ($true) {
 
 cls
 
-$user = ""
-$password = ""
+$user = "matthew.peterein@daugherty.com"
+$password = "Hummer44!"
 
 $ie = new-object -ComObject 'internetExplorer.application'
 $ie.Visible = $true
